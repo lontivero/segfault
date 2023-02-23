@@ -1,4 +1,3 @@
-/* gcc -Wall main.c -L. -l:WabiSabi.a libRuntime.WorkstationGC.a libbootstrapper.a libbootstrapperdll.a libSystem.Native.a libSystem.Security.Cryptography.Native.OpenSsl.a -lm -lstdc++ -ldl */
 #include <stdio.h>
 
 struct FE {
@@ -11,9 +10,7 @@ struct GE {
     int infinity;
 };
 
-struct FE test();
 struct FE testsegfault();
-int testint();
 
 
 int main(){
